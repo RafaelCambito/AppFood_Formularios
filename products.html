@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastrar Produto</title>
+  <link rel="stylesheet" type="text/css" href="products.css">
+</head>
+<body>
+  
+  <h1>Cadastrar Produto</h1>
+
+<!-- Inputs do formulario com campos necessários para o cadastro (name, description, image, price, category) -->
+  <form id="Form-CadProduto" enctype="multipart/form-data">
+    <label for="name">Informe o nome do produto</label>
+    <input type="text" id="name" name="name" required>
+    <label for="description">Informe a descrição do produto</label>
+    <textarea id="description" name="description" required></textarea>
+    <label for="image">Selecione a imagem</label>
+    <input type="file" id="image" name="image" accept="image/*" required>
+    <label for="price">Informe o preço</label>
+    <input type="number" id="price" name="price" required>
+    <label for="category">Selecione a categoria</label>
+    <select id="category" name="category" required>
+    </select>
+    <button type="submit">Cadastrar</button>
+  </form>
+
+
+    <h2>IFPR - Campus Cascavel - TADS 2023</h2>
+
+  
+
+  <script src="products.js"></script>
+
+</body>
+</html>
