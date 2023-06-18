@@ -31,8 +31,8 @@ OBS: Irá notificar no primeiro terminal a mensagem "Server is runing on http://
 1.3 - Clicar em cadastrar.
 
 exemplo icone:
-nome = Pizza
-ícone":🍕
+nome = Pizza</br>
+ícone":🍕</br>
 
 OBS: O ícone acima utilizado foi copiado do site (https://emojipedia.org). Ao acessar o site basta pesquisar pelo nome do ícone desejado, copiar e colar no espaço destinado ao ícone.
 
