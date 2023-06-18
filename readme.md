@@ -44,3 +44,8 @@ OBS: O ícone acima utilizado foi copiado do site (https://emojipedia.org). Ao a
 1.4 - Preço = Informar o preço do produto
 1.5 - Categoria = Informar a categoria do produto
 1.6 - Clicar em cadastrar.
+
+### Consulta de categorias e produtos cadastrados
+Links para consulta:
+http://localhost:4000/categories</br>
+http://localhost:4000/products</br>
